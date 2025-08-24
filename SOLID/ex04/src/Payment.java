@@ -1,4 +1,8 @@
-public class Payment {
-    String provider; double amount;
-    Payment(String p, double a){ provider=p; amount=a; }
+class Payment {
+    final String provider;
+    final double amount;
+    Payment(String provider, double amount) {
+        this.provider = provider;
+        this.amount = amount;
+    }
 }
