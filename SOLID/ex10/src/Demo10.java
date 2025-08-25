@@ -1,5 +1,8 @@
 public class Demo10 {
     public static void main(String[] args) {
-        new ReportService().generate();
+        Logger logger = new ConsoleLogger();   // could swap with FileLogger
+        ReportService service = new ReportService(logger);
+
+        service.generate();
     }
 }
