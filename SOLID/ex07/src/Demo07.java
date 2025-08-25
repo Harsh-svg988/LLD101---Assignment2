@@ -1,7 +1,11 @@
 public class Demo07 {
     public static void main(String[] args) {
-        Machine m = new BasicPrinter();
-        m.print("Hello");
-        m.scan("/tmp/out"); // blows up
+        Printer basic = new BasicPrinter();
+        basic.Print("Hello");
+
+        MultiFunctionPrinter mfp = new MultiFunctionPrinter();
+        mfp.Print("Report");
+        mfp.scan("/tmp/out");
+        mfp.fax("12345");
     }
 }
