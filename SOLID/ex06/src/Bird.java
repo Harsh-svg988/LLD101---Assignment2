@@ -1,5 +1,6 @@
 public class Bird {
-     void fly(){
-         System.out.println("Flap!"); 
-        } 
+    // Added common traits
+     void eat() {
+        System.out.println("Let me eat!");
     }
+}
