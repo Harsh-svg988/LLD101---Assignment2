@@ -1,4 +1,3 @@
-package exercise;
 
 public interface Employee {
   String getId();

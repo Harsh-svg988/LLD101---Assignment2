@@ -24,7 +24,6 @@ public class TryIt {
 
         System.out.println("Order2 total after discount: " + order2.totalAfterDiscount());
 
-        // Attempting to mutate original lines does NOT affect orders
-        // l1.setQuantity(999); // Cannot call anymore, immutable
+       
     }
 }
