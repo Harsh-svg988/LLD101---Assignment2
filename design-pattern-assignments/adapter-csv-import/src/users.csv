@@ -1,0 +1,6 @@
+id,email,displayName
+101,john@example.com,John
+102,jane@example.com,Jane
+103,bademail,InvalidUser
+,missing@example.com,NoId
+104,bob@example.com,Bob
